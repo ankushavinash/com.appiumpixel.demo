@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="action.different.Swap">
+      <class name="com.app.chrome.Chrome">
         <methods>
-          <include name="swap"/>
+          <include name="connections"/>
         </methods>
-      </class> <!-- action.different.Swap -->
+      </class> <!-- com.app.chrome.Chrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

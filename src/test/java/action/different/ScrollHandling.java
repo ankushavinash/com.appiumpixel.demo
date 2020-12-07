@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.springframework.ui.context.support.UiApplicationContextUtils;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumDriver;
@@ -37,6 +38,8 @@ public class ScrollHandling {
 		tapOnElement(element);
 		
 		//Perform scroll to seek bar
+		
+		
 		scrollToElement(driver, "text", "Seek Bar");
 		
 		Thread.sleep(2000);
